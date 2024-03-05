@@ -1,0 +1,27 @@
+2023-09-15 17:49:59,879 INFO    MainThread:12316 [wandb_setup.py:_flush():76] Current SDK version is 0.15.10
+2023-09-15 17:49:59,880 INFO    MainThread:12316 [wandb_setup.py:_flush():76] Configure stats pid to 12316
+2023-09-15 17:49:59,880 INFO    MainThread:12316 [wandb_setup.py:_flush():76] Loading settings from C:\Users\xc\.config\wandb\settings
+2023-09-15 17:49:59,880 INFO    MainThread:12316 [wandb_setup.py:_flush():76] Loading settings from D:\xc\YOLOv5-SPD\wandb\settings
+2023-09-15 17:49:59,880 INFO    MainThread:12316 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-09-15 17:49:59,880 INFO    MainThread:12316 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'train.py', 'program': 'D:\\xc\\YOLOv5-SPD\\train.py'}
+2023-09-15 17:49:59,881 INFO    MainThread:12316 [wandb_setup.py:_flush():76] Applying login settings: {'login_timeout': 30}
+2023-09-15 17:49:59,881 INFO    MainThread:12316 [wandb_init.py:_log_setup():524] Logging user logs to D:\xc\YOLOv5-SPD\wandb\run-20230915_174959-lmh9cwo8\logs\debug.log
+2023-09-15 17:49:59,882 INFO    MainThread:12316 [wandb_init.py:_log_setup():525] Logging internal logs to D:\xc\YOLOv5-SPD\wandb\run-20230915_174959-lmh9cwo8\logs\debug-internal.log
+2023-09-15 17:49:59,882 INFO    MainThread:12316 [wandb_init.py:init():564] calling init triggers
+2023-09-15 17:49:59,882 INFO    MainThread:12316 [wandb_init.py:init():571] wandb.init called with sweep_config: {}
+config: {'weights': 'models\\small_best.pt', 'cfg': '', 'data': 'data\\time-wrj.yaml', 'hyp': {'lr0': 0.01, 'lrf': 0.01, 'momentum': 0.937, 'weight_decay': 0.0005, 'warmup_epochs': 3.0, 'warmup_momentum': 0.8, 'warmup_bias_lr': 0.1, 'box': 0.05, 'cls': 0.5, 'cls_pw': 1.0, 'obj': 1.0, 'obj_pw': 1.0, 'iou_t': 0.2, 'anchor_t': 4.0, 'fl_gamma': 0.0, 'hsv_h': 0.015, 'hsv_s': 0.7, 'hsv_v': 0.4, 'degrees': 0.0, 'translate': 0.1, 'scale': 0.5, 'shear': 0.0, 'perspective': 0.0, 'flipud': 0.0, 'fliplr': 0.5, 'mosaic': 1.0, 'mixup': 0.0, 'copy_paste': 0.0}, 'epochs': 300, 'batch_size': 16, 'imgsz': 640, 'rect': False, 'resume': False, 'nosave': False, 'noval': False, 'noautoanchor': False, 'evolve': None, 'bucket': '', 'cache': None, 'image_weights': False, 'device': '', 'multi_scale': False, 'single_cls': False, 'adam': False, 'sync_bn': False, 'workers': 8, 'project': 'runs\\train', 'name': 'sxy', 'exist_ok': False, 'quad': False, 'linear_lr': False, 'label_smoothing': 0.0, 'patience': 100, 'freeze': 0, 'save_period': -1, 'local_rank': -1, 'entity': None, 'upload_dataset': False, 'bbox_interval': -1, 'artifact_alias': 'latest', 'save_dir': 'runs\\train\\sxy'}
+2023-09-15 17:49:59,882 INFO    MainThread:12316 [wandb_init.py:init():614] starting backend
+2023-09-15 17:49:59,882 INFO    MainThread:12316 [wandb_init.py:init():618] setting up manager
+2023-09-15 17:49:59,898 INFO    MainThread:12316 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2023-09-15 17:49:59,904 INFO    MainThread:12316 [wandb_init.py:init():624] backend started and connected
+2023-09-15 17:49:59,917 INFO    MainThread:12316 [wandb_init.py:init():715] updated telemetry
+2023-09-15 17:49:59,918 INFO    MainThread:12316 [wandb_init.py:init():748] communicating run to backend with 90.0 second timeout
+2023-09-15 17:50:01,466 INFO    MainThread:12316 [wandb_run.py:_on_init():2220] communicating current version
+2023-09-15 17:50:06,471 INFO    MainThread:12316 [wandb_run.py:_on_init():2229] got version response 
+2023-09-15 17:50:06,471 INFO    MainThread:12316 [wandb_init.py:init():799] starting run threads in backend
+2023-09-15 17:50:06,775 INFO    MainThread:12316 [wandb_run.py:_console_start():2199] atexit reg
+2023-09-15 17:50:06,776 INFO    MainThread:12316 [wandb_run.py:_redirect():2054] redirect: wrap_raw
+2023-09-15 17:50:06,776 INFO    MainThread:12316 [wandb_run.py:_redirect():2119] Wrapping output streams.
+2023-09-15 17:50:06,776 INFO    MainThread:12316 [wandb_run.py:_redirect():2144] Redirects installed.
+2023-09-15 17:50:06,777 INFO    MainThread:12316 [wandb_init.py:init():840] run started, returning control to user process
+2023-09-15 17:50:06,782 INFO    MainThread:12316 [wandb_run.py:_config_callback():1324] config_cb None None {'data_dict': {'path': 'data/sxy', 'train': 'data\\sxy\\images\\train', 'val': 'data\\sxy\\images\\val', 'test': 'data\\sxy\\images\\test', 'nc': 3, 'names': {0: 'gdy', 1: 'bird', 2: 'sxy'}}}

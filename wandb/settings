@@ -1,0 +1,5 @@
+[default]
+entity = 571498132
+project = yolov5-spd
+base_url = https://api.wandb.ai
+

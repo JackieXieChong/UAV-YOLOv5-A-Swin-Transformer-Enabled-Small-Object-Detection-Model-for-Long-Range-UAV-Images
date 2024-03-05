@@ -1,0 +1,47 @@
+{
+    "os": "Windows-10-10.0.20348-SP0",
+    "python": "3.10.7",
+    "heartbeatAt": "2023-09-15T09:50:06.735741",
+    "startedAt": "2023-09-15T09:49:59.877831",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "D:\\xc\\YOLOv5-SPD\\train.py",
+    "codePathLocal": "train.py",
+    "codePath": "train.py",
+    "host": "WIN-3FL9KO2UL85",
+    "username": "xc",
+    "executable": "D:\\zjj\\envs\\yolov5\\Scripts\\python.exe",
+    "cpu_count": 20,
+    "cpu_count_logical": 40,
+    "cpu_freq": {
+        "current": 1000.0,
+        "min": 0.0,
+        "max": 2401.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1000.0,
+            "min": 0.0,
+            "max": 2401.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 5744.247310638428,
+            "used": 636.1789436340332
+        }
+    },
+    "gpu": "Tesla P100-PCIE-16GB",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "Tesla P100-PCIE-16GB",
+            "memory_total": 17179869184
+        }
+    ],
+    "memory": {
+        "total": 63.6597785949707
+    }
+}

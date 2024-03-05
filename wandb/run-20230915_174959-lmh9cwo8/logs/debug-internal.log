@@ -1,0 +1,122 @@
+2023-09-15 17:49:59,901 INFO    StreamThr :24884 [internal.py:wandb_internal():86] W&B internal server running at pid: 24884, started at: 2023-09-15 17:49:59.900785
+2023-09-15 17:49:59,905 DEBUG   HandlerThread:24884 [handler.py:handle_request():144] handle_request: status
+2023-09-15 17:49:59,918 INFO    WriterThread:24884 [datastore.py:open_for_write():85] open: D:\xc\YOLOv5-SPD\wandb\run-20230915_174959-lmh9cwo8\run-lmh9cwo8.wandb
+2023-09-15 17:49:59,919 DEBUG   SenderThread:24884 [sender.py:send():379] send: header
+2023-09-15 17:49:59,920 DEBUG   SenderThread:24884 [sender.py:send():379] send: run
+2023-09-15 17:49:59,946 INFO    SenderThread:24884 [sender.py:_maybe_setup_resume():758] checking resume status for 571498132/train/lmh9cwo8
+2023-09-15 17:50:01,446 INFO    SenderThread:24884 [dir_watcher.py:__init__():211] watching files in: D:\xc\YOLOv5-SPD\wandb\run-20230915_174959-lmh9cwo8\files
+2023-09-15 17:50:01,446 INFO    SenderThread:24884 [sender.py:_start_run_threads():1121] run started: lmh9cwo8 with start time 1694771399.904821
+2023-09-15 17:50:01,467 DEBUG   HandlerThread:24884 [handler.py:handle_request():144] handle_request: check_version
+2023-09-15 17:50:01,468 DEBUG   SenderThread:24884 [sender.py:send_request():406] send_request: check_version
+2023-09-15 17:50:06,469 DEBUG   HandlerThread:24884 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-15 17:50:06,470 DEBUG   HandlerThread:24884 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 17:50:06,490 DEBUG   HandlerThread:24884 [handler.py:handle_request():144] handle_request: run_start
+2023-09-15 17:50:06,657 DEBUG   HandlerThread:24884 [system_info.py:__init__():32] System info init
+2023-09-15 17:50:06,657 DEBUG   HandlerThread:24884 [system_info.py:__init__():47] System info init done
+2023-09-15 17:50:06,657 INFO    HandlerThread:24884 [system_monitor.py:start():181] Starting system monitor
+2023-09-15 17:50:06,658 INFO    SystemMonitor:24884 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-09-15 17:50:06,658 INFO    HandlerThread:24884 [system_monitor.py:probe():201] Collecting system info
+2023-09-15 17:50:06,675 INFO    SystemMonitor:24884 [interfaces.py:start():190] Started cpu monitoring
+2023-09-15 17:50:06,676 INFO    SystemMonitor:24884 [interfaces.py:start():190] Started disk monitoring
+2023-09-15 17:50:06,678 INFO    SystemMonitor:24884 [interfaces.py:start():190] Started gpu monitoring
+2023-09-15 17:50:06,689 INFO    SystemMonitor:24884 [interfaces.py:start():190] Started memory monitoring
+2023-09-15 17:50:06,721 INFO    SystemMonitor:24884 [interfaces.py:start():190] Started network monitoring
+2023-09-15 17:50:06,734 DEBUG   HandlerThread:24884 [system_info.py:probe():196] Probing system
+2023-09-15 17:50:06,737 DEBUG   HandlerThread:24884 [gitlib.py:_init_repo():53] git repository is invalid
+2023-09-15 17:50:06,737 DEBUG   HandlerThread:24884 [system_info.py:probe():244] Probing system done
+2023-09-15 17:50:06,738 DEBUG   HandlerThread:24884 [system_monitor.py:probe():210] {'os': 'Windows-10-10.0.20348-SP0', 'python': '3.10.7', 'heartbeatAt': '2023-09-15T09:50:06.735741', 'startedAt': '2023-09-15T09:49:59.877831', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'D:\\xc\\YOLOv5-SPD\\train.py', 'codePathLocal': 'train.py', 'codePath': 'train.py', 'host': 'WIN-3FL9KO2UL85', 'username': 'xc', 'executable': 'D:\\zjj\\envs\\yolov5\\Scripts\\python.exe', 'cpu_count': 20, 'cpu_count_logical': 40, 'cpu_freq': {'current': 1000.0, 'min': 0.0, 'max': 2401.0}, 'cpu_freq_per_core': [{'current': 1000.0, 'min': 0.0, 'max': 2401.0}], 'disk': {'/': {'total': 5744.247310638428, 'used': 636.1789436340332}}, 'gpu': 'Tesla P100-PCIE-16GB', 'gpu_count': 1, 'gpu_devices': [{'name': 'Tesla P100-PCIE-16GB', 'memory_total': 17179869184}], 'memory': {'total': 63.6597785949707}}
+2023-09-15 17:50:06,738 INFO    HandlerThread:24884 [system_monitor.py:probe():211] Finished collecting system info
+2023-09-15 17:50:06,738 INFO    HandlerThread:24884 [system_monitor.py:probe():214] Publishing system info
+2023-09-15 17:50:06,738 DEBUG   HandlerThread:24884 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2023-09-15 17:50:06,740 DEBUG   HandlerThread:24884 [system_info.py:_save_pip():68] Saving pip packages done
+2023-09-15 17:50:06,742 INFO    HandlerThread:24884 [system_monitor.py:probe():216] Finished publishing system info
+2023-09-15 17:50:06,762 DEBUG   SenderThread:24884 [sender.py:send():379] send: files
+2023-09-15 17:50:06,763 INFO    SenderThread:24884 [sender.py:_save_file():1375] saving file wandb-metadata.json with policy now
+2023-09-15 17:50:06,773 DEBUG   HandlerThread:24884 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-15 17:50:06,774 DEBUG   SenderThread:24884 [sender.py:send_request():406] send_request: stop_status
+2023-09-15 17:50:06,779 DEBUG   HandlerThread:24884 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-15 17:50:07,090 DEBUG   SenderThread:24884 [sender.py:send():379] send: telemetry
+2023-09-15 17:50:07,091 DEBUG   SenderThread:24884 [sender.py:send():379] send: config
+2023-09-15 17:50:07,460 INFO    Thread-16 :24884 [dir_watcher.py:_on_file_created():271] file/dir created: D:\xc\YOLOv5-SPD\wandb\run-20230915_174959-lmh9cwo8\files\requirements.txt
+2023-09-15 17:50:07,461 INFO    Thread-16 :24884 [dir_watcher.py:_on_file_created():271] file/dir created: D:\xc\YOLOv5-SPD\wandb\run-20230915_174959-lmh9cwo8\files\wandb-metadata.json
+2023-09-15 17:50:08,303 INFO    wandb-upload_0:24884 [upload_job.py:push():131] Uploaded file C:\Users\xc\AppData\Local\Temp\4\tmplnt3xzipwandb\ycpwq6b1-wandb-metadata.json
+2023-09-15 17:50:08,458 INFO    Thread-16 :24884 [dir_watcher.py:_on_file_created():271] file/dir created: D:\xc\YOLOv5-SPD\wandb\run-20230915_174959-lmh9cwo8\files\output.log
+2023-09-15 17:50:10,460 INFO    Thread-16 :24884 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\xc\YOLOv5-SPD\wandb\run-20230915_174959-lmh9cwo8\files\output.log
+2023-09-15 17:50:11,596 DEBUG   HandlerThread:24884 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 17:50:14,465 INFO    Thread-16 :24884 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\xc\YOLOv5-SPD\wandb\run-20230915_174959-lmh9cwo8\files\output.log
+2023-09-15 17:50:16,599 DEBUG   HandlerThread:24884 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 17:50:18,469 INFO    Thread-16 :24884 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\xc\YOLOv5-SPD\wandb\run-20230915_174959-lmh9cwo8\files\output.log
+2023-09-15 17:50:20,471 INFO    Thread-16 :24884 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\xc\YOLOv5-SPD\wandb\run-20230915_174959-lmh9cwo8\files\output.log
+2023-09-15 17:50:21,783 DEBUG   HandlerThread:24884 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-15 17:50:21,784 DEBUG   HandlerThread:24884 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-15 17:50:21,785 DEBUG   SenderThread:24884 [sender.py:send_request():406] send_request: stop_status
+2023-09-15 17:50:22,191 DEBUG   HandlerThread:24884 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 17:50:27,194 DEBUG   HandlerThread:24884 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 17:50:32,202 DEBUG   HandlerThread:24884 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 17:50:33,485 INFO    Thread-16 :24884 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\xc\YOLOv5-SPD\wandb\run-20230915_174959-lmh9cwo8\files\config.yaml
+2023-09-15 17:50:36,771 DEBUG   HandlerThread:24884 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-15 17:50:36,772 DEBUG   SenderThread:24884 [sender.py:send_request():406] send_request: stop_status
+2023-09-15 17:50:36,775 DEBUG   HandlerThread:24884 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-15 17:50:38,222 DEBUG   HandlerThread:24884 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 17:50:43,225 DEBUG   HandlerThread:24884 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 17:50:48,229 DEBUG   HandlerThread:24884 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 17:50:51,772 DEBUG   HandlerThread:24884 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-15 17:50:51,773 DEBUG   SenderThread:24884 [sender.py:send_request():406] send_request: stop_status
+2023-09-15 17:50:51,777 DEBUG   HandlerThread:24884 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-15 17:50:54,145 DEBUG   HandlerThread:24884 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 17:50:59,147 DEBUG   HandlerThread:24884 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 17:51:04,549 DEBUG   HandlerThread:24884 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 17:51:06,521 INFO    Thread-16 :24884 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\xc\YOLOv5-SPD\wandb\run-20230915_174959-lmh9cwo8\files\output.log
+2023-09-15 17:51:06,722 DEBUG   SystemMonitor:24884 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-09-15 17:51:06,724 DEBUG   SenderThread:24884 [sender.py:send():379] send: stats
+2023-09-15 17:51:06,771 DEBUG   HandlerThread:24884 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-15 17:51:06,771 DEBUG   SenderThread:24884 [sender.py:send_request():406] send_request: stop_status
+2023-09-15 17:51:06,779 DEBUG   HandlerThread:24884 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-15 17:51:10,037 DEBUG   HandlerThread:24884 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 17:51:12,526 INFO    Thread-16 :24884 [dir_watcher.py:_on_file_modified():288] file/dir modified: D:\xc\YOLOv5-SPD\wandb\run-20230915_174959-lmh9cwo8\files\output.log
+2023-09-15 17:51:15,287 DEBUG   HandlerThread:24884 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 17:51:20,289 DEBUG   HandlerThread:24884 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 17:51:21,781 DEBUG   HandlerThread:24884 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-15 17:51:21,782 DEBUG   HandlerThread:24884 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-15 17:51:21,784 DEBUG   SenderThread:24884 [sender.py:send_request():406] send_request: stop_status
+2023-09-15 17:51:26,122 DEBUG   HandlerThread:24884 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 17:51:31,124 DEBUG   HandlerThread:24884 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 17:51:36,128 DEBUG   HandlerThread:24884 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 17:51:36,728 DEBUG   SenderThread:24884 [sender.py:send():379] send: stats
+2023-09-15 17:51:36,780 DEBUG   HandlerThread:24884 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-15 17:51:36,781 DEBUG   SenderThread:24884 [sender.py:send_request():406] send_request: stop_status
+2023-09-15 17:51:36,785 DEBUG   HandlerThread:24884 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-15 17:51:41,129 DEBUG   HandlerThread:24884 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 17:51:46,131 DEBUG   HandlerThread:24884 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 17:51:51,135 DEBUG   HandlerThread:24884 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 17:51:51,770 DEBUG   HandlerThread:24884 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-15 17:51:51,771 DEBUG   SenderThread:24884 [sender.py:send_request():406] send_request: stop_status
+2023-09-15 17:51:51,788 DEBUG   HandlerThread:24884 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-15 17:51:56,138 DEBUG   HandlerThread:24884 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 17:52:01,141 DEBUG   HandlerThread:24884 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 17:52:06,142 DEBUG   HandlerThread:24884 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 17:52:06,729 DEBUG   SenderThread:24884 [sender.py:send():379] send: stats
+2023-09-15 17:52:06,778 DEBUG   HandlerThread:24884 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-15 17:52:06,779 DEBUG   SenderThread:24884 [sender.py:send_request():406] send_request: stop_status
+2023-09-15 17:52:06,789 DEBUG   HandlerThread:24884 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-15 17:52:12,137 DEBUG   HandlerThread:24884 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 17:52:17,130 DEBUG   HandlerThread:24884 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 17:52:21,773 DEBUG   HandlerThread:24884 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-15 17:52:21,773 DEBUG   SenderThread:24884 [sender.py:send_request():406] send_request: stop_status
+2023-09-15 17:52:21,791 DEBUG   HandlerThread:24884 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-15 17:52:23,116 DEBUG   HandlerThread:24884 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 17:52:28,119 DEBUG   HandlerThread:24884 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 17:52:33,121 DEBUG   HandlerThread:24884 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 17:52:36,731 DEBUG   SenderThread:24884 [sender.py:send():379] send: stats
+2023-09-15 17:52:36,773 DEBUG   HandlerThread:24884 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-15 17:52:36,775 DEBUG   SenderThread:24884 [sender.py:send_request():406] send_request: stop_status
+2023-09-15 17:52:36,793 DEBUG   HandlerThread:24884 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-15 17:52:38,141 DEBUG   HandlerThread:24884 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 17:52:43,143 DEBUG   HandlerThread:24884 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 17:52:48,146 DEBUG   HandlerThread:24884 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 17:52:51,768 DEBUG   HandlerThread:24884 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-15 17:52:51,769 DEBUG   SenderThread:24884 [sender.py:send_request():406] send_request: stop_status
+2023-09-15 17:52:51,796 DEBUG   HandlerThread:24884 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-15 17:52:53,184 DEBUG   HandlerThread:24884 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 17:52:58,200 DEBUG   HandlerThread:24884 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 17:53:03,203 DEBUG   HandlerThread:24884 [handler.py:handle_request():144] handle_request: status_report
